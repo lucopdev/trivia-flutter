@@ -5,7 +5,7 @@ import 'package:trivia/question.dart';
 class Quiz extends StatelessWidget {
   final List<Map<String, Object>> questions;
   final int questionIndex;
-  final void Function() onAnswer;
+  final void Function(bool) onAnswer;
 
   const Quiz(
       {required this.questions,
@@ -27,7 +27,8 @@ class Quiz extends StatelessWidget {
       children: <Widget>[
         Question(questions[questionIndex]['question'].toString()),
         ...answers
-            .map((answer) => Answer(answer['answer']! as String, onAnswer))
+            .map((answer) => Answer(answer['answer']! as String,
+                () => onAnswer(answer['isCorrect']as bool)))
             .toList(),
       ],
     );
