@@ -350,14 +350,14 @@ final questions_map = [
     ],
   },
   {
-    'id': 36,
-    'question': 'Qual é o maior deserto do mundo?',
-    'answers': [
-      {'answer': 'Deserto do Saara', 'isCorrect': true},
-      {'answer': 'Deserto da Arábia', 'isCorrect': false},
-      {'answer': 'Deserto do Atacama', 'isCorrect': false},
-      {'answer': 'Deserto de Gobi', 'isCorrect': false}
-    ],
+    "id": 36,
+    "question": "Qual é o deserto mais quente do mundo?",
+    "answers": [
+      {"answer": "Deserto do Saara", "isCorrect": true},
+      {"answer": "Deserto do Atacama", "isCorrect": false},
+      {"answer": "Deserto do Mojave", "isCorrect": false},
+      {"answer": "Deserto da Arábia", "isCorrect": false}
+    ]
   },
   {
     'id': 37,
@@ -1114,4 +1114,1238 @@ final questions_map = [
       {'answer': 'Walter White', 'isCorrect': true}
     ],
   },
+  {
+    'id': 111,
+    'question': 'Qual é o nome do criador da série de animação "Os Simpsons"?',
+    'answers': [
+      {'answer': 'Matt Groening', 'isCorrect': true},
+      {'answer': 'Seth MacFarlane', 'isCorrect': false},
+      {'answer': 'Mike Judge', 'isCorrect': false},
+      {'answer': 'Trey Parker', 'isCorrect': false}
+    ]
+  },
+  {
+    'id': 112,
+    'question':
+        'Qual é o nome do ator que interpreta Tony Stark/Iron Man nos filmes da Marvel?',
+    'answers': [
+      {'answer': 'Chris Evans', 'isCorrect': false},
+      {'answer': 'Chris Hemsworth', 'isCorrect': false},
+      {'answer': 'Robert Downey Jr.', 'isCorrect': true},
+      {'answer': 'Mark Ruffalo', 'isCorrect': false}
+    ]
+  },
+  {
+    'id': 113,
+    'question': 'Qual é o nome da protagonista da série "Stranger Things"?',
+    'answers': [
+      {'answer': 'Eleven', 'isCorrect': false},
+      {'answer': 'Will Byers', 'isCorrect': false},
+      {'answer': 'Mike Wheeler', 'isCorrect': false},
+      {'answer': 'Eleven', 'isCorrect': true}
+    ]
+  },
+  {
+    'id': 114,
+    'question': 'Quem é o diretor do filme "Inception"?',
+    'answers': [
+      {'answer': 'Steven Spielberg', 'isCorrect': false},
+      {'answer': 'Christopher Nolan', 'isCorrect': true},
+      {'answer': 'Quentin Tarantino', 'isCorrect': false},
+      {'answer': 'Martin Scorsese', 'isCorrect': false}
+    ]
+  },
+  {
+    'id': 115,
+    'question': 'Qual é o nome do protagonista da série "Breaking Bad"?',
+    'answers': [
+      {'answer': 'Jesse Pinkman', 'isCorrect': false},
+      {'answer': 'Saul Goodman', 'isCorrect': false},
+      {'answer': 'Hank Schrader', 'isCorrect': false},
+      {'answer': 'Walter White', 'isCorrect': true}
+    ]
+  },
+  {
+    'id': 116,
+    'question':
+        'Qual é o nome do ator que interpreta Jon Snow em "Game of Thrones"?',
+    'answers': [
+      {'answer': 'Kit Harington', 'isCorrect': true},
+      {'answer': 'Peter Dinklage', 'isCorrect': false},
+      {'answer': 'Emilia Clarke', 'isCorrect': false},
+      {'answer': 'Nikolaj Coster-Waldau', 'isCorrect': false}
+    ]
+  },
+  {
+    'id': 117,
+    'question': 'Qual é o nome da cidade onde se passa a série "Breaking Bad"?',
+    'answers': [
+      {'answer': 'Albuquerque', 'isCorrect': true},
+      {'answer': 'Los Angeles', 'isCorrect': false},
+      {'answer': 'Las Vegas', 'isCorrect': false},
+      {'answer': 'Phoenix', 'isCorrect': false}
+    ]
+  },
+  {
+    'id': 118,
+    'question': 'Quem é o diretor do filme "Interstellar"?',
+    'answers': [
+      {'answer': 'Quentin Tarantino', 'isCorrect': false},
+      {'answer': 'Martin Scorsese', 'isCorrect': false},
+      {'answer': 'Christopher Nolan', 'isCorrect': true},
+      {'answer': 'Steven Spielberg', 'isCorrect': false}
+    ]
+  },
+  {
+    'id': 119,
+    'question': 'Qual é o nome do protagonista da série "The Office"?',
+    'answers': [
+      {'answer': 'Jim Halpert', 'isCorrect': false},
+      {'answer': 'Michael Scott', 'isCorrect': true},
+      {'answer': 'Dwight Schrute', 'isCorrect': false},
+      {'answer': 'Pam Beesly', 'isCorrect': false}
+    ]
+  },
+  {
+    'id': 120,
+    'question': 'Quem é o criador da série de televisão "Black Mirror"?',
+    'answers': [
+      {'answer': 'Charlie Brooker', 'isCorrect': true},
+      {'answer': 'David Lynch', 'isCorrect': false},
+      {'answer': 'Ryan Murphy', 'isCorrect': false},
+      {'answer': 'J.J. Abrams', 'isCorrect': false}
+    ]
+  },
+  {
+    'id': 121,
+    'question': 'Qual é o nome do protagonista da série "Sherlock"?',
+    'answers': [
+      {'answer': 'Dr. John Watson', 'isCorrect': false},
+      {'answer': 'James Moriarty', 'isCorrect': false},
+      {'answer': 'Sherlock Holmes', 'isCorrect': true},
+      {'answer': 'Mycroft Holmes', 'isCorrect': false}
+    ]
+  },
+  {
+    'id': 122,
+    'question': 'Quem é o diretor do filme "Avatar"?',
+    'answers': [
+      {'answer': 'Christopher Nolan', 'isCorrect': false},
+      {'answer': 'Peter Jackson', 'isCorrect': false},
+      {'answer': 'James Cameron', 'isCorrect': true},
+      {'answer': 'George Lucas', 'isCorrect': false}
+    ]
+  },
+  {
+    'id': 123,
+    'question': 'Qual é o nome do protagonista da série "House of Cards"?',
+    'answers': [
+      {'answer': 'Claire Underwood', 'isCorrect': false},
+      {'answer': 'Doug Stamper', 'isCorrect': false},
+      {'answer': 'Frank Underwood', 'isCorrect': true},
+      {'answer': 'Jackie Sharp', 'isCorrect': false}
+    ]
+  },
+  {
+    'id': 124,
+    'question':
+        'Quem é o autor dos livros que inspiraram a série "Game of Thrones"?',
+    'answers': [
+      {'answer': 'J.R.R. Tolkien', 'isCorrect': false},
+      {'answer': 'George R.R. Martin', 'isCorrect': true},
+      {'answer': 'C.S. Lewis', 'isCorrect': false},
+      {'answer': 'J.K. Rowling', 'isCorrect': false}
+    ]
+  },
+  {
+    'id': 125,
+    'question':
+        'Qual é o nome do ator que interpreta Sherlock Holmes na série "Sherlock"?',
+    'answers': [
+      {'answer': 'Benedict Cumberbatch', 'isCorrect': true},
+      {'answer': 'Martin Freeman', 'isCorrect': false},
+      {'answer': 'Andrew Scott', 'isCorrect': false},
+      {'answer': 'Rupert Graves', 'isCorrect': false}
+    ]
+  },
+  {
+    "id": 126,
+    "question": "Qual é o estado brasileiro conhecido como 'Terra do Sol'?",
+    "answers": [
+      {"answer": "Ceará", "isCorrect": false},
+      {"answer": "Bahia", "isCorrect": false},
+      {"answer": "Rio Grande do Norte", "isCorrect": false},
+      {"answer": "Sergipe", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 127,
+    "question": "Qual é a capital do estado do Paraná?",
+    "answers": [
+      {"answer": "Curitiba", "isCorrect": true},
+      {"answer": "Florianópolis", "isCorrect": false},
+      {"answer": "Porto Alegre", "isCorrect": false},
+      {"answer": "Belo Horizonte", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 128,
+    "question":
+        "O Pantanal, a maior área alagada do mundo, está localizado em qual estado brasileiro?",
+    "answers": [
+      {"answer": "Mato Grosso", "isCorrect": false},
+      {"answer": "Mato Grosso do Sul", "isCorrect": true},
+      {"answer": "Pará", "isCorrect": false},
+      {"answer": "Rondônia", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 129,
+    "question":
+        "Qual é a maior ilha fluvial do mundo, localizada no estado do Amazonas?",
+    "answers": [
+      {"answer": "Ilha do Bananal", "isCorrect": false},
+      {"answer": "Ilha de Marajó", "isCorrect": true},
+      {"answer": "Ilha Grande", "isCorrect": false},
+      {"answer": "Ilha de Santa Catarina", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 130,
+    "question": "Qual é a cidade mais populosa do Brasil?",
+    "answers": [
+      {"answer": "São Paulo", "isCorrect": true},
+      {"answer": "Rio de Janeiro", "isCorrect": false},
+      {"answer": "Brasília", "isCorrect": false},
+      {"answer": "Salvador", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 131,
+    "question": "Qual é a capital do estado do Acre?",
+    "answers": [
+      {"answer": "Rio Branco", "isCorrect": true},
+      {"answer": "Porto Velho", "isCorrect": false},
+      {"answer": "Manaus", "isCorrect": false},
+      {"answer": "Boa Vista", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 132,
+    "question": "Qual é o rio mais extenso do Brasil?",
+    "answers": [
+      {"answer": "Amazonas", "isCorrect": true},
+      {"answer": "São Francisco", "isCorrect": false},
+      {"answer": "Tocantins", "isCorrect": false},
+      {"answer": "Paraná", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 133,
+    "question": "Qual é o ponto mais alto do Brasil?",
+    "answers": [
+      {"answer": "Pico da Bandeira", "isCorrect": true},
+      {"answer": "Pico da Neblina", "isCorrect": false},
+      {"answer": "Pico Paraná", "isCorrect": false},
+      {"answer": "Pico das Agulhas Negras", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 134,
+    "question":
+        "Qual é o estado brasileiro com a maior quantidade de municípios?",
+    "answers": [
+      {"answer": "Minas Gerais", "isCorrect": false},
+      {"answer": "São Paulo", "isCorrect": false},
+      {"answer": "Bahia", "isCorrect": false},
+      {"answer": "Rio Grande do Norte", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 135,
+    "question": "Qual é a capital do estado de Pernambuco?",
+    "answers": [
+      {"answer": "Recife", "isCorrect": true},
+      {"answer": "João Pessoa", "isCorrect": false},
+      {"answer": "Natal", "isCorrect": false},
+      {"answer": "Maceió", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 136,
+    "question": "Qual é o esporte mais popular no Brasil?",
+    "answers": [
+      {"answer": "Futebol", "isCorrect": true},
+      {"answer": "Vôlei", "isCorrect": false},
+      {"answer": "Basquete", "isCorrect": false},
+      {"answer": "Surfe", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 137,
+    "question":
+        "Quantos jogadores compõem uma equipe de polo aquático durante uma partida?",
+    "answers": [
+      {"answer": "6", "isCorrect": false},
+      {"answer": "7", "isCorrect": false},
+      {"answer": "8", "isCorrect": false},
+      {"answer": "7", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 138,
+    "question": "Qual esporte é conhecido como 'esporte rei'?",
+    "answers": [
+      {"answer": "Futebol", "isCorrect": true},
+      {"answer": "Tênis", "isCorrect": false},
+      {"answer": "Golfe", "isCorrect": false},
+      {"answer": "Rugby", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 139,
+    "question": "Em que país nasceu o críquete?",
+    "answers": [
+      {"answer": "Índia", "isCorrect": false},
+      {"answer": "Austrália", "isCorrect": false},
+      {"answer": "Inglaterra", "isCorrect": true},
+      {"answer": "África do Sul", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 140,
+    "question": "Qual jogador de basquete é conhecido como 'The King'?",
+    "answers": [
+      {"answer": "LeBron James", "isCorrect": true},
+      {"answer": "Michael Jordan", "isCorrect": false},
+      {"answer": "Kobe Bryant", "isCorrect": false},
+      {"answer": "Shaquille O'Neal", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 141,
+    "question":
+        "Quantos jogadores compõem um time de vôlei em quadra durante uma partida?",
+    "answers": [
+      {"answer": "5", "isCorrect": false},
+      {"answer": "6", "isCorrect": true},
+      {"answer": "7", "isCorrect": false},
+      {"answer": "8", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 142,
+    "question":
+        "Qual destes jogadores de futebol é conhecido como 'O Fenômeno'?",
+    "answers": [
+      {"answer": "Lionel Messi", "isCorrect": false},
+      {"answer": "Neymar Jr.", "isCorrect": false},
+      {"answer": "Cristiano Ronaldo", "isCorrect": false},
+      {"answer": "Ronaldo Nazário", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 143,
+    "question": "Em que país ocorreu o primeiro campeonato mundial de futebol?",
+    "answers": [
+      {"answer": "Brasil", "isCorrect": false},
+      {"answer": "Uruguai", "isCorrect": true},
+      {"answer": "Itália", "isCorrect": false},
+      {"answer": "Alemanha", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 144,
+    "question": "Qual esporte é associado a Roland Garros?",
+    "answers": [
+      {"answer": "Golfe", "isCorrect": false},
+      {"answer": "Tênis", "isCorrect": true},
+      {"answer": "Críquete", "isCorrect": false},
+      {"answer": "Pólo", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 145,
+    "question": "Qual país sediou os primeiros Jogos Olímpicos da era moderna?",
+    "answers": [
+      {"answer": "Grécia", "isCorrect": true},
+      {"answer": "França", "isCorrect": false},
+      {"answer": "Estados Unidos", "isCorrect": false},
+      {"answer": "Alemanha", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 146,
+    "question": "Qual destes golfistas é conhecido como 'The Golden Bear'?",
+    "answers": [
+      {"answer": "Tiger Woods", "isCorrect": false},
+      {"answer": "Arnold Palmer", "isCorrect": false},
+      {"answer": "Jack Nicklaus", "isCorrect": true},
+      {"answer": "Phil Mickelson", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 147,
+    "question":
+        "Qual é o nome dado ao ponto marcado no tênis quando um jogador não retorna a bola corretamente?",
+    "answers": [
+      {"answer": "Strike", "isCorrect": false},
+      {"answer": "Out", "isCorrect": false},
+      {"answer": "Fault", "isCorrect": true},
+      {"answer": "Miss", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 148,
+    "question":
+        "Quem é considerado o maior piloto da Fórmula 1 de todos os tempos?",
+    "answers": [
+      {"answer": "Ayrton Senna", "isCorrect": true},
+      {"answer": "Michael Schumacher", "isCorrect": false},
+      {"answer": "Lewis Hamilton", "isCorrect": false},
+      {"answer": "Sebastian Vettel", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 149,
+    "question": "Qual é a nacionalidade do jogador de basquete Dirk Nowitzki?",
+    "answers": [
+      {"answer": "Americano", "isCorrect": false},
+      {"answer": "Alemão", "isCorrect": true},
+      {"answer": "Espanhol", "isCorrect": false},
+      {"answer": "Francês", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 150,
+    "question": "Qual destes esportes faz parte do programa olímpico de verão?",
+    "answers": [
+      {"answer": "Hóquei no Gelo", "isCorrect": false},
+      {"answer": "Esqui Alpino", "isCorrect": false},
+      {"answer": "Natação", "isCorrect": true},
+      {"answer": "Snowboard", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 151,
+    "question":
+        "Qual é o jogador de futebol com mais gols em uma única edição da Copa do Mundo?",
+    "answers": [
+      {"answer": "Pelé", "isCorrect": false},
+      {"answer": "Ronaldo Nazário", "isCorrect": true},
+      {"answer": "Diego Maradona", "isCorrect": false},
+      {"answer": "Lionel Messi", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 152,
+    "question": "Qual esporte é associado a Augusta National?",
+    "answers": [
+      {"answer": "Basquete", "isCorrect": false},
+      {"answer": "Golfe", "isCorrect": true},
+      {"answer": "Pólo", "isCorrect": false},
+      {"answer": "Críquete", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 153,
+    "question": "Qual é o recorde mundial dos 100m rasos masculino?",
+    "answers": [
+      {"answer": "9.58 segundos", "isCorrect": true},
+      {"answer": "9.74 segundos", "isCorrect": false},
+      {"answer": "9.88 segundos", "isCorrect": false},
+      {"answer": "10.12 segundos", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 154,
+    "question": "Em que país nasceu o esporte do judô?",
+    "answers": [
+      {"answer": "China", "isCorrect": false},
+      {"answer": "Japão", "isCorrect": true},
+      {"answer": "Coreia do Sul", "isCorrect": false},
+      {"answer": "Tailândia", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 155,
+    "question":
+        "Qual é o termo usado para descrever um jogo de tênis em que um jogador vence todos os pontos?",
+    "answers": [
+      {"answer": "Checkmate", "isCorrect": false},
+      {"answer": "Deuce", "isCorrect": false},
+      {"answer": "Love", "isCorrect": false},
+      {"answer": "Bagel", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 156,
+    "question":
+        "Quantas medalhas de ouro o nadador Michael Phelps conquistou nos Jogos Olímpicos de Pequim 2008?",
+    "answers": [
+      {"answer": "6", "isCorrect": false},
+      {"answer": "8", "isCorrect": true},
+      {"answer": "10", "isCorrect": false},
+      {"answer": "12", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 157,
+    "question": "Qual esporte é conhecido como 'o esporte dos reis'?",
+    "answers": [
+      {"answer": "Futebol", "isCorrect": false},
+      {"answer": "Pólo", "isCorrect": true},
+      {"answer": "Tênis", "isCorrect": false},
+      {"answer": "Rugby", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 158,
+    "question": "Quantos buracos há em um campo de golfe tradicional?",
+    "answers": [
+      {"answer": "12", "isCorrect": false},
+      {"answer": "15", "isCorrect": false},
+      {"answer": "18", "isCorrect": true},
+      {"answer": "21", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 159,
+    "question": "Qual é a pontuação máxima perfeita no boliche?",
+    "answers": [
+      {"answer": "250", "isCorrect": false},
+      {"answer": "300", "isCorrect": true},
+      {"answer": "350", "isCorrect": false},
+      {"answer": "400", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 160,
+    "question": "Qual esporte é jogado na Copa Davis?",
+    "answers": [
+      {"answer": "Tênis", "isCorrect": true},
+      {"answer": "Golfe", "isCorrect": false},
+      {"answer": "Pólo", "isCorrect": false},
+      {"answer": "Críquete", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 161,
+    "question": "Qual é o país de origem do taekwondo?",
+    "answers": [
+      {"answer": "Japão", "isCorrect": false},
+      {"answer": "Coreia do Sul", "isCorrect": true},
+      {"answer": "China", "isCorrect": false},
+      {"answer": "Tailândia", "isCorrect": false}
+    ]
+  },
+
+  // musica
+
+  {
+    "id": 162,
+    "question": "Qual é o álbum mais vendido de todos os tempos?",
+    "answers": [
+      {"answer": "Thriller - Michael Jackson", "isCorrect": true},
+      {"answer": "The Dark Side of the Moon - Pink Floyd", "isCorrect": false},
+      {"answer": "Back in Black - AC/DC", "isCorrect": false},
+      {
+        "answer": "Sgt. Pepper's Lonely Hearts Club Band - The Beatles",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "question": "Quem é conhecido como o 'Rei do Pop'?",
+    "answers": [
+      {"answer": "Elvis Presley", "isCorrect": false},
+      {"answer": "Michael Jackson", "isCorrect": true},
+      {"answer": "Prince", "isCorrect": false},
+      {"answer": "David Bowie", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 164,
+    "question": "Qual é a banda de rock mais bem-sucedida de todos os tempos?",
+    "answers": [
+      {"answer": "The Rolling Stones", "isCorrect": false},
+      {"answer": "Led Zeppelin", "isCorrect": false},
+      {"answer": "Queen", "isCorrect": false},
+      {"answer": "The Beatles", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 165,
+    "question": "Qual cantora pop é conhecida como 'Rainha do Pop'?",
+    "answers": [
+      {"answer": "Madonna", "isCorrect": true},
+      {"answer": "Britney Spears", "isCorrect": false},
+      {"answer": "Lady Gaga", "isCorrect": false},
+      {"answer": "Beyoncé", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 166,
+    "question":
+        "Qual é o nome do primeiro álbum lançado pela banda britânica The Beatles?",
+    "answers": [
+      {"answer": "Rubber Soul", "isCorrect": false},
+      {"answer": "Let It Be", "isCorrect": false},
+      {"answer": "Please Please Me", "isCorrect": true},
+      {"answer": "Abbey Road", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 167,
+    "question": "Qual é a canção mais reproduzida na história do Spotify?",
+    "answers": [
+      {"answer": "Shape of You - Ed Sheeran", "isCorrect": true},
+      {"answer": "Blinding Lights - The Weeknd", "isCorrect": false},
+      {"answer": "Despacito - Luis Fonsi, Daddy Yankee", "isCorrect": false},
+      {"answer": "Uptown Funk - Mark Ronson, Bruno Mars", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 168,
+    "question":
+        "Qual é o nome verdadeiro de Freddie Mercury, o lendário vocalista do Queen?",
+    "answers": [
+      {"answer": "Frederick Farrokh", "isCorrect": false},
+      {"answer": "Frederick Mercury", "isCorrect": false},
+      {"answer": "Farrokh Bulsara", "isCorrect": true},
+      {"answer": "Farrokh Mercury", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 169,
+    "question": "Quem é o vocalista da banda britânica Coldplay?",
+    "answers": [
+      {"answer": "Chris Martin", "isCorrect": true},
+      {"answer": "Thom Yorke", "isCorrect": false},
+      {"answer": "Brandon Flowers", "isCorrect": false},
+      {"answer": "Dave Grohl", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 170,
+    "question": "Qual é o álbum mais vendido da história nos Estados Unidos?",
+    "answers": [
+      {"answer": "The Wall - Pink Floyd", "isCorrect": false},
+      {"answer": "Back in Black - AC/DC", "isCorrect": false},
+      {"answer": "Thriller - Michael Jackson", "isCorrect": true},
+      {"answer": "Dark Side of the Moon - Pink Floyd", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 171,
+    "question":
+        "Qual é a nacionalidade do famoso compositor Ludwig van Beethoven?",
+    "answers": [
+      {"answer": "Austríaco", "isCorrect": false},
+      {"answer": "Alemão", "isCorrect": true},
+      {"answer": "Francês", "isCorrect": false},
+      {"answer": "Húngaro", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 172,
+    "question":
+        "Quem é o lendário guitarrista da banda britânica Led Zeppelin?",
+    "answers": [
+      {"answer": "Jimmy Page", "isCorrect": true},
+      {"answer": "Jimi Hendrix", "isCorrect": false},
+      {"answer": "Eric Clapton", "isCorrect": false},
+      {"answer": "Angus Young", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 173,
+    "question": "Qual é o nome da cantora pop que lançou o álbum '1989'?",
+    "answers": [
+      {"answer": "Adele", "isCorrect": false},
+      {"answer": "Taylor Swift", "isCorrect": true},
+      {"answer": "Katy Perry", "isCorrect": false},
+      {"answer": "Rihanna", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 174,
+    "question":
+        "Qual é o nome da banda que tinha John Lennon e Paul McCartney como membros principais?",
+    "answers": [
+      {"answer": "The Rolling Stones", "isCorrect": false},
+      {"answer": "The Who", "isCorrect": false},
+      {"answer": "The Beatles", "isCorrect": true},
+      {"answer": "The Kinks", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 175,
+    "question": "Qual é a canção mais reproduzida na história do YouTube?",
+    "answers": [
+      {"answer": "Shape of You - Ed Sheeran", "isCorrect": false},
+      {"answer": "Baby Shark Dance - Pinkfong", "isCorrect": true},
+      {"answer": "Despacito - Luis Fonsi, Daddy Yankee", "isCorrect": false},
+      {"answer": "Gangnam Style - PSY", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 176,
+    "question": "Qual é o nome do lendário vocalista da banda Nirvana?",
+    "answers": [
+      {"answer": "Dave Grohl", "isCorrect": false},
+      {"answer": "Kurt Cobain", "isCorrect": true},
+      {"answer": "Eddie Vedder", "isCorrect": false},
+      {"answer": "Chris Cornell", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 177,
+    "question": "Qual é o álbum mais vendido da história do Brasil?",
+    "answers": [
+      {"answer": "Samba Esquema Novo - Jorge Ben", "isCorrect": false},
+      {"answer": "Thriller - Michael Jackson", "isCorrect": false},
+      {"answer": "Dois - Legião Urbana", "isCorrect": false},
+      {"answer": "Xou da Xuxa - Xuxa", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 178,
+    "question": "Qual foi o primeiro vídeo musical exibido na MTV?",
+    "answers": [
+      {"answer": "Thriller - Michael Jackson", "isCorrect": false},
+      {
+        "answer": "Video Killed the Radio Star - The Buggles",
+        "isCorrect": true
+      },
+      {"answer": "Money for Nothing - Dire Straits", "isCorrect": false},
+      {"answer": "Like a Virgin - Madonna", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 179,
+    "question": "Qual cantor é conhecido como 'O Rei'?",
+    "answers": [
+      {"answer": "Roberto Carlos", "isCorrect": true},
+      {"answer": "Caetano Veloso", "isCorrect": false},
+      {"answer": "Gilberto Gil", "isCorrect": false},
+      {"answer": "Chico Buarque", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 180,
+    "question": "Quem é o lendário vocalista da banda Queen?",
+    "answers": [
+      {"answer": "Freddie Mercury", "isCorrect": true},
+      {"answer": "Roger Taylor", "isCorrect": false},
+      {"answer": "Brian May", "isCorrect": false},
+      {"answer": "John Deacon", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 181,
+    "question": "Qual é o nome verdadeiro da cantora Lady Gaga?",
+    "answers": [
+      {"answer": "Stefani Joanne Angelina Germanotta", "isCorrect": true},
+      {"answer": "Katheryn Elizabeth Hudson", "isCorrect": false},
+      {"answer": "Beyoncé Giselle Knowles", "isCorrect": false},
+      {"answer": "Robyn Rihanna Fenty", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 182,
+    "question": "Quem é considerado o 'Rei do Rock and Roll'?",
+    "answers": [
+      {"answer": "Chuck Berry", "isCorrect": false},
+      {"answer": "Buddy Holly", "isCorrect": false},
+      {"answer": "Elvis Presley", "isCorrect": true},
+      {"answer": "Little Richard", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 183,
+    "question": "Qual é o nome verdadeiro do rapper Eminem?",
+    "answers": [
+      {"answer": "Marshall Mathers", "isCorrect": true},
+      {"answer": "Calvin Broadus", "isCorrect": false},
+      {"answer": "Shawn Carter", "isCorrect": false},
+      {"answer": "Curtis Jackson", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 184,
+    "question": "Qual é o álbum mais vendido da história do Reino Unido?",
+    "answers": [
+      {"answer": "Back in Black - AC/DC", "isCorrect": false},
+      {"answer": "The Dark Side of the Moon - Pink Floyd", "isCorrect": false},
+      {
+        "answer": "Sgt. Pepper's Lonely Hearts Club Band - The Beatles",
+        "isCorrect": false
+      },
+      {"answer": "Greatest Hits - Queen", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 185,
+    "question":
+        "Qual é o gênero musical originário de Nova Orleans, conhecido por suas influências africanas?",
+    "answers": [
+      {"answer": "Jazz", "isCorrect": true},
+      {"answer": "Rock", "isCorrect": false},
+      {"answer": "Blues", "isCorrect": false},
+      {"answer": "Country", "isCorrect": false}
+    ]
+  },
+
+  // conhecimentos gerais
+
+  {
+    "id": 186,
+    "question": "Qual é o menor país do mundo em área territorial?",
+    "answers": [
+      {"answer": "Vaticano", "isCorrect": true},
+      {"answer": "Mônaco", "isCorrect": false},
+      {"answer": "Nauru", "isCorrect": false},
+      {"answer": "San Marino", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 187,
+    "question": "Quais são as sete maravilhas do mundo moderno?",
+    "answers": [
+      {
+        "answer":
+            "Cristo Redentor, Muralha da China, Petra, Machu Picchu, Coliseu, Chichén Itzá, Taj Mahal",
+        "isCorrect": true
+      },
+      {
+        "answer":
+            "Pirâmides de Gizé, Coliseu, Estátua de Zeus, Templo de Ártemis, Jardins Suspensos da Babilônia, Mausoléu de Halicarnasso, Farol de Alexandria",
+        "isCorrect": false
+      },
+      {
+        "answer":
+            "Cristo Redentor, Grande Muralha da China, Machu Picchu, Petra, Taj Mahal, Coliseu, Chichén Itzá",
+        "isCorrect": false
+      },
+      {
+        "answer":
+            "Torre Eiffel, Estátua da Liberdade, Coliseu, Pirâmides de Gizé, Grande Muralha da China, Machu Picchu, Taj Mahal",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "question":
+        "Qual é o animal que tem a mordida mais forte em relação ao seu tamanho corporal?",
+    "answers": [
+      {"answer": "Leão", "isCorrect": false},
+      {"answer": "Formiga Bulldog", "isCorrect": true},
+      {"answer": "Crocodilo", "isCorrect": false},
+      {"answer": "Águia", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 189,
+    "question": "Qual é o canal que separa a Inglaterra da França?",
+    "answers": [
+      {"answer": "Canal de Suez", "isCorrect": false},
+      {"answer": "Canal do Panamá", "isCorrect": false},
+      {"answer": "Canal da Mancha", "isCorrect": true},
+      {"answer": "Canal de Gibraltar", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 190,
+    "question": "Qual é o rio mais longo do mundo?",
+    "answers": [
+      {"answer": "Rio Amazonas", "isCorrect": false},
+      {"answer": "Rio Nilo", "isCorrect": true},
+      {"answer": "Rio Yangtze", "isCorrect": false},
+      {"answer": "Rio Mississipi", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 191,
+    "question": "Qual é o maior oceano do mundo?",
+    "answers": [
+      {"answer": "Oceano Atlântico", "isCorrect": false},
+      {"answer": "Oceano Índico", "isCorrect": false},
+      {"answer": "Oceano Pacífico", "isCorrect": true},
+      {"answer": "Oceano Ártico", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 192,
+    "question": "Qual é o país com a maior área territorial do mundo?",
+    "answers": [
+      {"answer": "Canadá", "isCorrect": true},
+      {"answer": "Rússia", "isCorrect": false},
+      {"answer": "Estados Unidos", "isCorrect": false},
+      {"answer": "China", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 193,
+    "question": "Qual é o ponto mais alto do planeta Terra?",
+    "answers": [
+      {"answer": "Monte Kilimanjaro", "isCorrect": false},
+      {"answer": "Monte Everest", "isCorrect": true},
+      {"answer": "Monte K2", "isCorrect": false},
+      {"answer": "Monte McKinley", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 194,
+    "question": "Quais são os cinco oceanos da Terra?",
+    "answers": [
+      {
+        "answer": "Pacífico, Atlântico, Índico, Antártico, Ártico",
+        "isCorrect": true
+      },
+      {
+        "answer": "Pacífico, Atlântico, Índico, Glacial Ártico, Antártico",
+        "isCorrect": false
+      },
+      {
+        "answer": "Pacífico, Atlântico, Índico, Glacial Antártico, Ártico",
+        "isCorrect": false
+      },
+      {
+        "answer": "Pacífico, Índico, Atlântico, Glacial Antártico, Ártico",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "question": "Qual é a cidade mais populosa do mundo?",
+    "answers": [
+      {"answer": "Tóquio, Japão", "isCorrect": true},
+      {"answer": "Xangai, China", "isCorrect": false},
+      {"answer": "Delhi, Índia", "isCorrect": false},
+      {"answer": "São Paulo, Brasil", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 196,
+    "question": "Qual é o país com a maior extensão de fronteiras do mundo?",
+    "answers": [
+      {"answer": "Canadá", "isCorrect": false},
+      {"answer": "Rússia", "isCorrect": true},
+      {"answer": "Estados Unidos", "isCorrect": false},
+      {"answer": "Brasil", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 197,
+    "question": "Quais são os quatro países que compõem o Reino Unido?",
+    "answers": [
+      {
+        "answer": "Inglaterra, Escócia, País de Gales, Irlanda do Norte",
+        "isCorrect": true
+      },
+      {"answer": "Inglaterra, Escócia, Irlanda, Gales", "isCorrect": false},
+      {
+        "answer": "Inglaterra, Escócia, Irlanda do Norte, País de Gales",
+        "isCorrect": false
+      },
+      {
+        "answer": "Inglaterra, Escócia, País de Gales, Irlanda",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "question": "Qual é o país mais setentrional do mundo?",
+    "answers": [
+      {"answer": "Finlândia", "isCorrect": false},
+      {"answer": "Noruega", "isCorrect": false},
+      {"answer": "Groenlândia (território da Dinamarca)", "isCorrect": true},
+      {"answer": "Canadá", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 199,
+    "question": "Qual é a cidade mais antiga do mundo?",
+    "answers": [
+      {"answer": "Roma, Itália", "isCorrect": false},
+      {"answer": "Jerusalém, Israel", "isCorrect": true},
+      {"answer": "Atenas, Grécia", "isCorrect": false},
+      {"answer": "Cairo, Egito", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 200,
+    "question": "Qual é o país com a maior quantidade de ilhas do mundo?",
+    "answers": [
+      {"answer": "Indonésia", "isCorrect": true},
+      {"answer": "Filipinas", "isCorrect": false},
+      {"answer": "Japão", "isCorrect": false},
+      {"answer": "Noruega", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 201,
+    "question": "Qual é o maior arquipélago do mundo?",
+    "answers": [
+      {"answer": "Havaí", "isCorrect": false},
+      {"answer": "Filipinas", "isCorrect": false},
+      {"answer": "Indonésia", "isCorrect": true},
+      {"answer": "Japão", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 202,
+    "question": "Qual é o país com a maior quantidade de fusos horários?",
+    "answers": [
+      {"answer": "Estados Unidos", "isCorrect": false},
+      {"answer": "Canadá", "isCorrect": false},
+      {"answer": "Rússia", "isCorrect": true},
+      {"answer": "Brasil", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 203,
+    "question": "Qual é a montanha mais alta fora da Ásia?",
+    "answers": [
+      {"answer": "Monte Elbrus", "isCorrect": false},
+      {"answer": "Monte Kilimanjaro", "isCorrect": false},
+      {"answer": "Monte Aconcágua", "isCorrect": true},
+      {"answer": "Monte Everest", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 204,
+    "question": "Qual é o país com a maior população muçulmana do mundo?",
+    "answers": [
+      {"answer": "Índia", "isCorrect": false},
+      {"answer": "Arábia Saudita", "isCorrect": false},
+      {"answer": "Indonésia", "isCorrect": true},
+      {"answer": "Paquistão", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 205,
+    "question": "Qual é o rio mais poluído do mundo?",
+    "answers": [
+      {"answer": "Rio Tâmisa", "isCorrect": false},
+      {"answer": "Rio Ganges", "isCorrect": true},
+      {"answer": "Rio Yangtze", "isCorrect": false},
+      {"answer": "Rio Nilo", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 206,
+    "question": "Qual é o país com a maior produção de petróleo do mundo?",
+    "answers": [
+      {"answer": "Arábia Saudita", "isCorrect": true},
+      {"answer": "Estados Unidos", "isCorrect": false},
+      {"answer": "Rússia", "isCorrect": false},
+      {"answer": "Brasil", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 207,
+    "question": "Qual é o país com a maior quantidade de vulcões ativos?",
+    "answers": [
+      {"answer": "Indonésia", "isCorrect": true},
+      {"answer": "Filipinas", "isCorrect": false},
+      {"answer": "Japão", "isCorrect": false},
+      {"answer": "Itália", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 208,
+    "question": "Qual é o país com a maior quantidade de aeroportos do mundo?",
+    "answers": [
+      {"answer": "Estados Unidos", "isCorrect": true},
+      {"answer": "China", "isCorrect": false},
+      {"answer": "Rússia", "isCorrect": false},
+      {"answer": "Brasil", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 209,
+    "question": "Qual é o único país do mundo que não possui um único rio?",
+    "answers": [
+      {"answer": "Arábia Saudita", "isCorrect": true},
+      {"answer": "Omã", "isCorrect": false},
+      {"answer": "Kuwait", "isCorrect": false},
+      {"answer": "Bahamas", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 210,
+    "question": "Qual é o país mais densamente povoado do mundo?",
+    "answers": [
+      {"answer": "Bangladesh", "isCorrect": true},
+      {"answer": "Mônaco", "isCorrect": false},
+      {"answer": "Índia", "isCorrect": false},
+      {"answer": "Japão", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 211,
+    "question": "Qual é a cidade mais fria do mundo?",
+    "answers": [
+      {"answer": "Reykjavík, Islândia", "isCorrect": false},
+      {"answer": "Ushuaia, Argentina", "isCorrect": false},
+      {"answer": "Oymyakon, Rússia", "isCorrect": true},
+      {"answer": "Helsinki, Finlândia", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 212,
+    "question": "Qual é o país com a maior área de tundra?",
+    "answers": [
+      {"answer": "Canadá", "isCorrect": true},
+      {"answer": "Rússia", "isCorrect": false},
+      {"answer": "Noruega", "isCorrect": false},
+      {"answer": "Finlândia", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 213,
+    "question": "Qual é o país com a maior área de manguezais?",
+    "answers": [
+      {"answer": "Índia", "isCorrect": false},
+      {"answer": "Austrália", "isCorrect": false},
+      {"answer": "Brasil", "isCorrect": true},
+      {"answer": "Indonésia", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 214,
+    "question": "Qual é o país com a maior área de caatinga?",
+    "answers": [
+      {"answer": "Brasil", "isCorrect": true},
+      {"answer": "Índia", "isCorrect": false},
+      {"answer": "México", "isCorrect": false},
+      {"answer": "Austrália", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 215,
+    "question": "Qual é o país com a maior área de cerrado?",
+    "answers": [
+      {"answer": "Estados Unidos", "isCorrect": false},
+      {"answer": "Brasil", "isCorrect": true},
+      {"answer": "Austrália", "isCorrect": false},
+      {"answer": "Rússia", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 216,
+    "question": "Qual é o país com a maior área de savana?",
+    "answers": [
+      {"answer": "Austrália", "isCorrect": false},
+      {"answer": "Brasil", "isCorrect": false},
+      {"answer": "Índia", "isCorrect": false},
+      {"answer": "Nigéria", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 217,
+    "question": "Qual é o país com a maior reserva de água doce do mundo?",
+    "answers": [
+      {"answer": "Brasil", "isCorrect": true},
+      {"answer": "Canadá", "isCorrect": false},
+      {"answer": "Rússia", "isCorrect": false},
+      {"answer": "China", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 218,
+    "question": "Qual é o país com o maior número de espécies de aves?",
+    "answers": [
+      {"answer": "Estados Unidos", "isCorrect": false},
+      {"answer": "Brasil", "isCorrect": true},
+      {"answer": "Austrália", "isCorrect": false},
+      {"answer": "China", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 219,
+    "question": "Qual é o país com a maior diversidade de espécies de plantas?",
+    "answers": [
+      {"answer": "Brasil", "isCorrect": true},
+      {"answer": "Indonésia", "isCorrect": false},
+      {"answer": "Austrália", "isCorrect": false},
+      {"answer": "Estados Unidos", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 220,
+    "question": "Qual é o país com a maior área de floresta tropical?",
+    "answers": [
+      {"answer": "Brasil", "isCorrect": true},
+      {"answer": "Indonésia", "isCorrect": false},
+      {"answer": "Congo", "isCorrect": false},
+      {"answer": "Austrália", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 221,
+    "question": "Qual é o país com o maior número de fronteiras terrestres?",
+    "answers": [
+      {"answer": "China", "isCorrect": true},
+      {"answer": "Rússia", "isCorrect": false},
+      {"answer": "Brasil", "isCorrect": false},
+      {"answer": "Índia", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 222,
+    "question": "Qual é o país com a maior costa marítima do mundo?",
+    "answers": [
+      {"answer": "Brasil", "isCorrect": true},
+      {"answer": "Austrália", "isCorrect": false},
+      {"answer": "Canadá", "isCorrect": false},
+      {"answer": "Rússia", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 223,
+    "question": "Qual é o maior arquipélago do mundo?",
+    "answers": [
+      {"answer": "Filipinas", "isCorrect": false},
+      {"answer": "Indonésia", "isCorrect": true},
+      {"answer": "Japão", "isCorrect": false},
+      {"answer": "Havaí", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 224,
+    "question": "Qual é o país com o maior número de rios?",
+    "answers": [
+      {"answer": "Brasil", "isCorrect": true},
+      {"answer": "Índia", "isCorrect": false},
+      {"answer": "Estados Unidos", "isCorrect": false},
+      {"answer": "Rússia", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 225,
+    "question": "Qual é o lago mais profundo do mundo?",
+    "answers": [
+      {"answer": "Lago Vitória", "isCorrect": false},
+      {"answer": "Lago Superior", "isCorrect": false},
+      {"answer": "Lago Baikal", "isCorrect": true},
+      {"answer": "Lago Titicaca", "isCorrect": false}
+    ]
+  },
+  {
+    "id": 226,
+    "question": "Qual é a maior cachoeira do mundo?",
+    "answers": [
+      {"answer": "Cataratas do Niágara", "isCorrect": false},
+      {"answer": "Cataratas do Iguaçu", "isCorrect": false},
+      {"answer": "Cataratas Vitória", "isCorrect": false},
+      {"answer": "Cataratas do Angel", "isCorrect": true}
+    ]
+  }
 ];

@@ -9,15 +9,20 @@ class Answer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 420,
-      margin: const EdgeInsets.all(10),
+      width: 500,
+      margin: const EdgeInsets.fromLTRB(10, 5, 10, 5),
       child: ElevatedButton(
-        style: ElevatedButton.styleFrom(
-          backgroundColor: const Color.fromRGBO(160, 212, 255, 0.431),
+        style: const ButtonStyle(
+          backgroundColor:
+              MaterialStatePropertyAll(Color.fromARGB(255, 255, 255, 255)),
+          overlayColor:
+              MaterialStatePropertyAll(Color.fromRGBO(232, 130, 48, 1)),
+          shadowColor: MaterialStatePropertyAll(Colors.black),
+          fixedSize: MaterialStatePropertyAll(Size(1, 55)),
         ),
         onPressed: clickFunc,
         child: Text(
-          style: const TextStyle(color: Color.fromARGB(255, 0, 102, 255)),
+          style: const TextStyle(color: Color.fromARGB(255, 36, 27, 20)),
           answerText,
           textAlign: TextAlign.center,
         ),

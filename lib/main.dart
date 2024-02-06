@@ -10,26 +10,26 @@ void main(List<String> args) => runApp(const QuestionApp());
 class QuestionAppState extends State<QuestionApp> {
   List<Map<String, Object>> randomQuestions = [];
   var _questionIndex = 0;
-  var _correctAnswer = 0;
+  var _score = 0;
 
   QuestionAppState() {
-    randomizeQuestions(5);
+    randomizeQuestions(10);
   }
 
   void _onAnswer(bool isCorrect) {
     setState(() {
       _questionIndex++;
-      if (isCorrect) _correctAnswer++;
+      if (isCorrect) _score++;
     });
   }
 
-  void _resetIndex() {
+  void _resetQuiz() {
     setState(() {
       randomQuestions = [];
       _questionIndex = 0;
-      _correctAnswer = 0;
+      _score = 0;
     });
-    randomizeQuestions(5);
+    randomizeQuestions(10);
   }
 
   void randomizeQuestions(numberOfQuestions) {
@@ -55,18 +55,44 @@ class QuestionAppState extends State<QuestionApp> {
 
   @override
   Widget build(BuildContext context) {
+    String resultText;
+
+    switch (_score) {
+      case 1:
+      case 2:
+      case 3:
+        resultText = 'ihhh, que pena, você acertou apenas ';
+      case 4:
+      case 5:
+      case 6:
+        resultText = 'é... não foi mal, acertou ';
+      case 7:
+      case 8:
+      case 9:
+        resultText = 'Parabéns! Acertou';
+      case 10:
+        resultText = 'Meu deus, você é um gênio! Acertou TODAS!';
+      default:
+        resultText = 'Credo, não acertou nada =/';
+    }
+
     return MaterialApp(
       home: Scaffold(
+          backgroundColor: Color.fromRGBO(36, 42, 64, 1),
           appBar: AppBar(
             title: const Text('Trivia'),
+            foregroundColor: Colors.white,
+            backgroundColor: const Color.fromRGBO(44, 64, 88, 1),
+            centerTitle: true,
           ),
           body: hasQuestionSelected
-              ? Quiz(
-                  questions: randomQuestions,
-                  questionIndex: _questionIndex,
-                  onAnswer: _onAnswer)
-              : Result((_correctAnswer >= 4) ? 'Parabéns' : 'ahh...',
-                  _resetIndex, _correctAnswer)),
+              ? Container(
+                  margin: const EdgeInsets.fromLTRB(0, 50, 0, 0),
+                  child: Quiz(
+                      questions: randomQuestions,
+                      questionIndex: _questionIndex,
+                      onAnswer: _onAnswer))
+              : Result(resultText, _resetQuiz, _score)),
     );
   }
 }
