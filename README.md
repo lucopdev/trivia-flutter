@@ -2,19 +2,18 @@
   <h1 style="color: #535493;">Quiz Flutter - Mind Bender</h1>
 </div>
 
-<div style="display: flex; justify-content: center; background-color: rgb(88, 99, 163); margin-bottom: 50px">
+<div style="width: 100%; display: flex; justify-content: center; background-color: rgb(88, 99, 163); margin-bottom: 50px">
     <img src="/lib/img/screen1.png" style="width: 100px; margin-right:10px">
     <img src="/lib/img/screen2.png" style="width: 100px; margin-right:10px">
     <img src="/lib/img/screen3.png" style="width: 100px; margin-right:10px">
 </div>
 
-
-
 Este é um aplicativo Flutter de perguntas e respostas, desenvolvido para desafiar e entreter os usuários. O aplicativo oferece dois modos de jogo: Normal e Hardcore. No modo Normal, os jogadores respondem a uma série de 10 perguntas selecionadas aleatoriamente do banco de dados. No modo Hardcore, os jogadores devem responder corretamente a todas as perguntas para vencer.
 
 ## Funcionalidades
 
-- **Modo Normal**: 
+- **Modo Normal**:
+
   - Os jogadores respondem a 10 perguntas selecionadas aleatoriamente.
   - Cada resposta correta aumenta a pontuação do jogador.
   - No final das 10 perguntas, a pontuação total é exibida.
@@ -56,4 +55,3 @@ Contribuições são bem-vindas! Se você encontrar bugs ou tiver ideias para me
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE). Sinta-se à vontade para usar, modificar e distribuir o código conforme necessário.
-
