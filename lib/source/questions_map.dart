@@ -1,4 +1,4 @@
-final questions_map = [
+final questionsMap = [
   {
     'id': 1,
     'question': 'Quem foi a primeira pessoa a viajar para o espaço?',
@@ -1077,7 +1077,7 @@ final questions_map = [
     'id': 107,
     'question': 'Qual é o nome do protagonista da série "Stranger Things"?',
     'answers': [
-      {'answer': 'Eleven', 'isCorrect': false},
+      {'answer': 'Mike', 'isCorrect': false},
       {'answer': 'Will Byers', 'isCorrect': false},
       {'answer': 'Mike Wheeler', 'isCorrect': false},
       {'answer': 'Eleven', 'isCorrect': true}
@@ -1387,7 +1387,7 @@ final questions_map = [
         "Quantos jogadores compõem uma equipe de polo aquático durante uma partida?",
     "answers": [
       {"answer": "6", "isCorrect": false},
-      {"answer": "7", "isCorrect": false},
+      {"answer": "5", "isCorrect": false},
       {"answer": "8", "isCorrect": false},
       {"answer": "7", "isCorrect": true}
     ]

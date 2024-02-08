@@ -11,22 +11,26 @@ class Result extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-        Text(
-          text,
-          style: const TextStyle(fontSize: 15),
-          textAlign: TextAlign.center,
-        ),
-        Text(
-          '${score.toString()} / 10',
-          style: const TextStyle(fontSize: 25),
-          textAlign: TextAlign.center,
-        ),
+        Container(
+            margin: const EdgeInsets.fromLTRB(0, 0, 0, 15),
+            child: Text(
+              text,
+              style: const TextStyle(fontSize: 30, color: Colors.white),
+              textAlign: TextAlign.center,
+            )),
+        Container(
+            margin: const EdgeInsets.fromLTRB(0, 0, 0, 15),
+            child: Text(
+              '${score.toString()} acertos!',
+              style: const TextStyle(fontSize: 35, color: Colors.white),
+              textAlign: TextAlign.center,
+            )),
         ElevatedButton(
             style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(90, 0, 140, 255)),
+                backgroundColor: const Color.fromARGB(255, 255, 137, 27)),
             onPressed: resetQuiz,
             child: const Text(
-                style: TextStyle(color: Color.fromARGB(255, 1, 70, 126)),
+                style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
                 'Restart Quiz')),
       ]),
     );
