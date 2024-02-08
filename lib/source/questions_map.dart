@@ -1137,12 +1137,12 @@ final questionsMap = [
   },
   {
     'id': 113,
-    'question': 'Qual é o nome da protagonista da série "Stranger Things"?',
+    'question': 'Quantos filmes Quentin Tarantino dirigiu?',
     'answers': [
-      {'answer': 'Eleven', 'isCorrect': false},
-      {'answer': 'Will Byers', 'isCorrect': false},
-      {'answer': 'Mike Wheeler', 'isCorrect': false},
-      {'answer': 'Eleven', 'isCorrect': true}
+      {'answer': '9', 'isCorrect': false},
+      {'answer': '3', 'isCorrect': false},
+      {'answer': '25', 'isCorrect': false},
+      {'answer': '12', 'isCorrect': true}
     ]
   },
   {
