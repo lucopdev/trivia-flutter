@@ -2,7 +2,7 @@
   <h1 style="color: #535493;">Quiz Flutter - Mind Bender</h1>
 </div>
 
-<div style="display: flex; justify-content: start; margin-bottom: 50px">
+<div style="display: flex; justify-content: center; margin-bottom: 50px">
     <img src="/lib/img/screen1.png" style="width: 100px; margin-right:10px">
     <img src="/lib/img/screen2.png" style="width: 100px; margin-right:10px">
     <img src="/lib/img/screen3.png" style="width: 100px; margin-right:10px">
