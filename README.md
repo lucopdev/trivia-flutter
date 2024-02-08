@@ -1,5 +1,7 @@
 # trivia
 
+![Tela de gameplay](/lib/img/screen.png)
+
 A new Flutter project.
 
 ## Getting Started
