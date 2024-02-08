@@ -1,6 +1,5 @@
-<div align="center">
-  <h1 style="color: #535493;">Quiz Flutter - Mind Bender</h1>
-</div>
+<div style="display: flex; flex-direction: column; align-items: start">
+  <h1 style="text-align: center; color: #535493;">Quiz Flutter - Mind Bender</h1>
 
 <div style="width: 100%; display: flex; justify-content: center; background-color: rgb(88, 99, 163); margin-bottom: 50px">
     <img src="/lib/img/highlight.png">
@@ -56,3 +55,5 @@ Contribuições são bem-vindas! Se você encontrar bugs ou tiver ideias para me
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE). Sinta-se à vontade para usar, modificar e distribuir o código conforme necessário.
+
+</div>
